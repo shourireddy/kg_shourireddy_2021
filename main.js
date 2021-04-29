@@ -6,6 +6,7 @@ for(var i=2;i<arr.length;i++){
 	}
 	val=val+",";
 }
+console.log(val.substr(0,val.length-1));
 function getString(number) {
 	var NumStr;
 switch (number) {
